@@ -152,5 +152,6 @@ if __name__ == '__main__':
     print("记录者2的账户: ", vin_coin.get_balance("记录者2"))
     vin_coin.mine_pending_transactions("记录者3")
     print("记录者2的账户: ", vin_coin.get_balance("记录者2"))
+    #显示所有交易
     vin_coin.Blockchain_display()
 
